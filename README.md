@@ -10,9 +10,9 @@ Requirements: AngularJS 1.0.0+
 
 1. list 'angular-collapse' as a dependency for you app.
 
-```js
-angular.module('myApp', ['angular-collapse'])
-```
+  ```js
+  angular.module('myApp', ['angular-collapse'])
+  ```
 
 2. inclue the supplied CSS file (or merge them within your own).
 
