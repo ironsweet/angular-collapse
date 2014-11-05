@@ -6,6 +6,8 @@ The trick is simple. Wrap the content with a zero height div, hide it with absol
 
 Requirements: AngularJS 1.0.0+
 
+Live demo: [here](http://jsbin.com/lacave)
+
 ## Usage
 
 1. list 'angular-collapse' as a dependency for you app.
@@ -14,7 +16,14 @@ Requirements: AngularJS 1.0.0+
   angular.module('myApp', ['angular-collapse'])
   ```
 
-2. inclue the supplied CSS file (or merge them within your own).
+2. include the supplied CSS file (or merge them within your own).
+3. add 'collapse' directive to your content. For example,
+
+    ```js
+    <div collapse='isExpanded' ng-click='isExpanded = !isExpanded'>
+        collapsible content here...
+    </div>
+    ```
 
 ## Why I created this
 
